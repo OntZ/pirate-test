@@ -23,7 +23,7 @@ export const Artists: React.FC = () => {
           />
         </div>
         {artists.map(artist => (
-          <div className="col-lg-3">
+          <div key={artist.id} className="col-lg-3">
             <ArtistPreview artist={artist}/>
           </div>
         ))}
