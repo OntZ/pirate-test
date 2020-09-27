@@ -1,0 +1,10 @@
+.ArtistPreview {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #fafafa;
+
+  &-name {
+    margin-bottom: 20px;
+  }
+}
