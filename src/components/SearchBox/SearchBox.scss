@@ -1,0 +1,22 @@
+@import '../../app-mixins-and-vars.scss';
+
+.SearchBox {
+  &-label {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  &-input {
+    width: 300px;
+    padding: 10px;
+    font-size: $min-font-size;
+  }
+
+  &-input, &-button {
+    height: 40px;
+  }
+
+  &-button {
+    margin-left: 20px;
+  }
+}

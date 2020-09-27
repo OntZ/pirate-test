@@ -1,0 +1,1 @@
+export const className = (componentName: string) => (subClass?: string) => subClass ? `${componentName}-${subClass}` : componentName
