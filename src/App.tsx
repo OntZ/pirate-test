@@ -1,11 +1,13 @@
 import React from 'react';
+
+import { Artists } from './pages/Artists/Artists'
+
 import './App.scss';
 
 const App: React.FC = () => {
-
   return (
     <div className="App">
-      <h1>Hi!</h1>
+      <Artists />
     </div>
   );
 }
